@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    /*int a;
+    int a;
     int b;
     printf("Enter First Number");
     scanf("%d",&a);
@@ -13,11 +13,12 @@ int main() {
     int length;
     printf("Length of the side of square");
     scanf("%d",&length);
-    printf("Area of the square is %d",length*length);*/
+    printf("Area of the square is %d",length*length);
+
     int radius;
     printf("Radius of the circle");
     scanf("%f",&radius);
-    printf("Area of the circle %f",3.14*radius*radius);
+    printf("Area of the circle %f", 3.14*radius*radius);
     return 0;
 
 }
